@@ -16,7 +16,7 @@ public class ThisCar {
 
 	void run() { // 멤버 함수
 		for (int i = 10; i <= 50; i+=10) {
-			this.setSpeed(i);
+			this.setSpeed(i); // 내가 가지고 있는 함수를 실행해라
 			System.out.println(this.model + "가 달립니다.(시속:" + this.speed + "km/h)");
 		}
 	}
